@@ -1,0 +1,11 @@
+name: footy-stats
+description: Infra for footy-stats app
+runtime:
+  name: python
+  options:
+    toolchain: pip
+    virtualenv: venv
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-python
